@@ -960,7 +960,6 @@ input[type=radio], input[type=checkbox]{
 
 .input-icon-append i {
 	border-radius: 0 4px 4px 0;
-	background-color: @eqdkpContentAccentColor;
 	border: 1px solid @eqdkpInputBorderColor;
 	line-height: 20px;
 	padding: 4px 8px !important;
@@ -1034,7 +1033,7 @@ button[disabled], button[disabled]:hover, input[type=submit][disabled], input[ty
 
 select[disabled], textarea[disabled], input[type="text"][disabled], input[type="password"][disabled], input[type="datetime"][disabled], input[type="datetime-local"][disabled], input[type="date"][disabled], input[type="month"][disabled], input[type="time"][disabled], input[type="week"][disabled], input[type="number"][disabled], input[type="email"][disabled], input[type="url"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="color"][disabled],
 select[readonly], textarea[readonly], input[type="text"][readonly], input[type="password"][readonly], input[type="datetime"][readonly], input[type="datetime-local"][readonly], input[type="date"][readonly], input[type="month"][readonly], input[type="time"][readonly], input[type="week"][readonly], input[type="number"][readonly], input[type="email"][readonly], input[type="url"][readonly], input[type="search"][readonly], input[type="tel"][readonly], input[type="color"][readonly]{
-	background-color: #EEEEEE;
+	background-color: #52575a;
 	cursor: not-allowed;
 }
 
@@ -3831,13 +3830,13 @@ button#cboxPrevious, button#cboxNext, button#cboxClose, button#cboxSlideshow {
 		display: none;
 		margin-bottom: 10px;
 		padding: 10px;
-		background-color: rgba(255,255,255,.95);
+		background-color: rgba(48,59,65,.95);
 		border-right: 1px solid #bbb;
 		z-index: 999;
 	}
 
 	.nav-mobile-closebtn {
-		background-color: #4E7FA8;
+		background-color: #52575a;
 		color: #fff;
 		border-radius: 4px;
 		position: fixed;
